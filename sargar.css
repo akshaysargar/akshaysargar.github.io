@@ -1,0 +1,393 @@
+<style type="text/css">
+        
+      
+          
+      body
+      {
+                
+        background: none;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-family: 'Droid Serif', Georgia, Times, serif;
+                
+      }
+      /* --------------------------------------------Navbar CSS--------------------------------------------------- */
+      #navbar .nav-pills .nav-item.open .nav-link,
+      #navbar .nav-pills .nav-item.open .nav-link:focus,
+      #navbar .nav-pills .nav-item.open .nav-link:hover,
+      #navbar .nav-pills .nav-link.active,
+      #navbar .nav-pills .nav-link.active:focus,
+      #navbar .nav-pills .nav-link.active:hover 
+      {
+        background-color: #e7e7e7;
+        border-color: transparent;
+        color: #555555;
+      }
+
+      .navbar-default 
+      {
+        background-color: #610B0B ;
+        border-radius:0px;
+      
+      }
+
+      .navbar.center .navbar-inner 
+      {
+        text-align: center;
+      }
+
+      .navbar.center .navbar-inner .nav 
+      {
+        float: none;
+        display:inline-block;
+      }
+
+      .navbar-default .navbar-nav > li > a 
+      {
+        color: white;
+        font-size: 15px;
+      
+        font-family: 'Droid Serif', Georgia, Times, serif;
+        letter-spacing: 1px;
+        margin: 3px 10px -3px 10px;
+        border: 2px solid transparent;
+        padding: 8px;
+
+      }
+
+      .navbar-default .navbar-nav > li > a:hover,
+      .navbar-default .navbar-nav > li > a:focus
+      { 
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        padding: 8px;
+      }
+      /*--------------------------------------------navbar styling-------------------------------------------
+      .navbar-default .navbar-nav > .active > a, 
+      .navbar-default .navbar-nav > .active > a:hover, 
+      .navbar-default .navbar-nav > .active > a:focus 
+      {
+        border: 2px solid white;
+        border-radius: 5px;
+        color: #555;
+        background-color: #E7E7E7;
+      }
+
+      .navbar-default .navbar-nav > .open > a, 
+      .navbar-default .navbar-nav > .open > a:hover, 
+      .navbar-default .navbar-nav > .open > a:focus 
+      {
+        color: #555;
+        background-color: #D5D5D5;
+      }
+      */
+
+      /*------------------------------------------Jumbotron/Home CSS-------------------------------------------*/
+      .jumbotron 
+      {
+        
+        width: 100%;
+        height: 600px;
+        color: white;
+        text-align: center;
+        background: url("laptop5.jpg");
+        background-size: cover;
+        background-position: center center;  
+        padding:200px 0 140px 0;
+        border-radius: 0px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+      }
+      #jumbotron h1
+      {
+        color: white;
+        text-align: center;
+        font-family: 'Arbutus Slab', serif;     
+        letter-spacing: 1px;
+      }
+
+      #hr1
+      {
+        width: 550px;
+        height: 2px;
+        background-color:#610B0B;
+      }
+        
+      #jumbotext
+      {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: 'Advent Pro', sans-serif; 
+        
+      }
+
+      #jumbotext1
+      {
+        
+        font-family: 'Advent Pro', sans-serif;       
+         font-size: 25px;
+        letter-spacing: 1px;
+        color: white;
+        font-weight: bold;
+  
+      }
+
+      
+      .idea
+      {
+        color: tomato;
+      }
+
+      /*-----------------------------------------About Me CSS------------------------------------------------------*/
+
+      #about
+      {
+        background-color: #D5D5D5;
+        height: 750px;
+        padding: 70px;
+        overflow: hidden;
+      }
+      
+      /*----------------------------------------About Me Image Card-------------------------------------------------*/
+      
+      .card-inverse1
+      {
+        border:2px solid #610B0B;
+      }
+
+      .card-deck-wrapper
+      {
+        margin-top: 40px;
+        margin-left: -15px;
+        width: 110%;
+        border-color: red;
+      }
+
+      .card-img-top 
+      {        
+         width: 100%;       
+      }
+        
+      .card-block
+      {
+        background-color: #610B0B;
+        height: 90px;
+        color:white;
+      }
+
+      
+      /*----------------------------------------About me TEXT paragraph----------------------------------------------*/
+      #wrapper
+      {
+        float: right;
+        width: 500px;
+        height: 550px;
+        margin-left: 0px; 
+      }
+      
+      .lead
+      {
+        color: tomato;
+      }
+
+      /*--------------------------------About & Skills Header with lines to the side-------------------------------*/  
+      h2
+      {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      h2:before, h2:after 
+      {
+        flex-grow: 1;
+        height: 2px;
+        content: '\a0';
+        background-color: #610B0B;
+        position: relative;
+        top: 0.5em;
+      }
+
+      h2:before 
+      {
+        margin-right:10px;
+      }
+
+      h2:after 
+      {
+        margin-left:10px;
+      }
+      
+      /*--------------------------------------------------My Skills CSS---------------------------------------------*/
+      #skills
+      {
+      
+        background-color:white ;
+        width: 100%;
+        height: 750px;
+        padding: 70px ;
+        
+      }
+      /*------------------------------------------My Skills Bootstrap & Wordpress cards----------------------------*/
+      .card1
+      {
+        margin-top: 30px;
+      }
+
+      .card-block1
+      {
+        height: 270px;
+      }
+        
+      .card-header1
+      {
+        background-color:#4B356C;
+        height: 50px;
+        padding: 8px;
+        color: white;
+      }
+
+      .card-header2
+      {
+        background-color: #0087BE;
+        height: 50px;
+        padding: 8px;
+        color: white;
+      }
+
+      .card-inverse2
+      {
+        border:2px solid #4B356C;
+      }
+
+      .card-inverse3
+      {
+        border:2px solid #0087BE;
+      }
+
+      .logo1
+      {
+        width: 40px;
+        margin:-2px 7px 10px 0px;
+      }
+
+      .logo2
+      {
+        width: 40px;
+        margin:0px 2px 8px 0px;
+      }
+
+      /*--------------------------------------------My Skills Circular progress bar-------------------------------*/
+      
+      #progress p
+      {
+        width: 100px;
+        float: left;
+        margin: 15px 20px 15px 52px;
+        padding: 11.5px;
+        font-size: 20px;
+      }
+
+      .progress-radial 
+      {
+        float: left;
+        margin: 55px 21px 10px 21px;
+        position: relative;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: 2px solid #D5D5D5;
+        background-color: tomato;
+      }
+
+      .progress-radial .overlay 
+      {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 2px solid #D5D5D5;
+        background-color: #D5D5D5;
+        border-radius: 50%;
+        margin-left: 23px;
+        margin-top: 22px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+      }
+  
+      .progress-0 
+      {
+        background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(90deg, #ff6347 50%, #2f3439 50%, #2f3439);
+      }
+
+      .progress-10 
+      {
+        background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(126deg, #ff6347 50%, #2f3439 50%, #2f3439);
+      }
+
+      .progress-70 
+      {
+        background-image: linear-gradient(-18deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+      }
+
+      .progress-75 
+      {
+        background-image: linear-gradient(0deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+      }
+
+      .progress-80 
+      {
+        background-image: linear-gradient(18deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+      }
+
+      .progress-85 
+      {
+        background-image: linear-gradient(36deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+      }
+
+      .progress-90 
+      {
+        background-image: linear-gradient(54deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+      }
+      /*------------------------------------------------Contact CSS---------------------------------------------*/
+      #contact
+      {
+        background-color:#D5D5D5 ;
+        width: 100%;
+        height: 780px;
+        padding: 70px ;
+      }
+      #contactForm
+      {
+
+        width: 430px;
+        float: left;
+      }
+      #contactMe
+      { 
+        width: 400px;
+        float: right;
+        background-color: #474D5D;
+        margin-top: 32px;
+        border-radius: 10px;
+        color:black;
+        padding: 10px;
+      }
+      h5
+      {
+        font-weight: bold;
+        margin:10px ;
+        text-align: center;
+      }
+      span
+      {
+        position: relative;
+        left:8px;
+      }   
+      </style>
