@@ -177,42 +177,54 @@
 
     <div id="about">
   
-      <h2 class="display-4 ">About Me</h2>
+        <h2 class="display-4 ">About Me</h2>
 
-        <div class="card-deck-wrapper">
+        <div class="container-fluid">
+
+          <div class="row">
           
-          <div class="col-sm-4">
+              <div class="col-sm-4 col-lg-4">
+
+                <div class="card-deck-wrapper">
   
-            <div class="card card-inverse1">
+                  <div class="card card-inverse1">
             
-              <img class="card-img-top" src="sargar.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="sargar.jpg" alt="Card image cap">
                 
-                <div class="card-block">
+                        <div class="card-block">
                   
-                  <h4 class="card-title text-xs-center">Akshay Sargar<br/></h4>
-                  <h6 class="card-title text-xs-center">Web Developer</h6>
+                            <h4 class="card-title text-xs-center">Akshay Sargar<br/></h4>
+                            <h6 class="card-title text-xs-center">Web Developer</h6>
                 
+                        </div>
+          
+                  </div>
+          
                 </div>
-          
+        
             </div>
-          
-          </div>
+
+            <div class="col-sm-8 col-lg-8">
+
+
+              <div id="wrapper">
+
+                  <p class="lead" >Good things comes to those who believe.Better things comes to those who are Patient and the best things come to those who Dont Give Up.</p>
+
+                  <p>Hello everyone, I'm a Web Developer from Pune,India.I hold a bachelor's degree in Information Technology from Pune University. </p>
+
+                  <p>I currently am a freelancer spending most of my time crafting and working on awesome projects.I work on high end and luxury responsive webdesign using Wordpress.My skill set below will let you know about my capabilitity to make best websites for you. I am also very honest about my skill set and will only propose something I can deliver to an exceptional standard.I treat each project I work on as if it were my own business.</p>
+
+                  <p>I like working with people, rather than for people. I like to see the people that hire me as friends I can get on with.I bring out the best out of me to create the best suitable website the ideas that you bring to me and I'll happily quote a competitive price and an honest timeframe.</p>
+
+              </div>
+
+            </div>
         
         </div>
 
+      </div>
 
-        <div id="wrapper">
-
-          <p class="lead" >Good things comes to those who believe.Better things comes to those who are Patient and the best things come to those who Dont Give Up.</p>
-
-          <p>Hello everyone, I'm a Web Developer from Pune,India.I hold a bachelor's degree in Information Technology from Pune University. </p>
-
-          <p>I currently am a freelancer spending most of my time crafting and working on awesome projects.I work on high end and luxury responsive webdesign using Wordpress.My skill set below will let you know about my capabilitity to make best websites for you. I am also very honest about my skill set and will only propose something I can deliver to an exceptional standard.I treat each project I work on as if it were my own business.</p>
-
-          <p>I like working with people, rather than for people. I like to see the people that hire me as friends I can get on with.I bring out the best out of me to create the best suitable website the ideas that you bring to me and I'll happily quote a competitive price and an honest timeframe.</p>
-
-        </div>
-        
     </div>
 
 
@@ -220,70 +232,94 @@
 
     <div id="skills">
 
-      <h2 class="display-4 ">My Skills</h2>
-      
-        <div class="progress-radial progress-90">
-          <div class="overlay">90%</div>
-        </div>
+        <h2 class="display-4 ">My Skills</h2>
 
-      <div class="progress-radial progress-85">
-        <div class="overlay">85%</div>
-      </div>
+        <div class="container-fluid">
 
-      <div class="progress-radial progress-70">
-        <div class="overlay">70%</div>
-      </div>
+          <div class="row">
 
-      <div class="progress-radial progress-75">
-        <div class="overlay">75%</div>
-      </div>
+          <div class="col-sm-1 col-lg-1"></div>
 
-      <div class="progress-radial progress-80">
-        <div class="overlay">80%</div>
-      </div>
+            <div class="col-sm-2 col-lg-2">
+              <div> 
+                <div class="progress-radial progress-90">
+                  <div class="overlay">90%</div>
+                </div>
+                <p class="progress">HTML</p>
+              </div>
 
-      <div id="progress">
-
-      <p>HTML</p>
-
-      <p>CSS</p>
-
-      <p>jQuery</p>
-
-      <p>PHP</p>
-
-      <p>MySQL</p>
-
-      </div>
-
-
-      <div class="row">
-        
-        <div class="col-sm-6">
-    
-          <div class="card1 card-inverse2 card-block1">
-            
-            <h3 class="card-header1  text-xs-center"><img class="logo1" src="bootlogo.jpg">Bootstrap</h3>
-              
-              <p class="card-text text-xs-center"> Bootstrap is an increasingly popular front-end development framework making your websites responsive meaning website will automatically adjust to your mobile screen resolution.It ensures consistency as results are uniform across various platforms.Bootstarp can be tailor made according to specifications of your projects.Use of Bootstrap will be there in your projects.</p>
-    
           </div>
+
+          <div class="col-sm-2 col-lg-2">
+
+              <div class="progress-radial progress-85">
+                <div class="overlay">85%</div>
+              </div>
+              <p class="progress">CSS</p>
+
+            </div>
+
+            <div class="col-sm-2 col-lg-2">
+
+              <div class="progress-radial progress-70">
+                <div class="overlay">70%</div>
+              </div>
+              <p class="progress">jQuery</p>
+
+          </div>
+
+          <div class="col-sm-2 col-lg-2">
+
+              <div class="progress-radial progress-75">
+                <div class="overlay">75%</div>
+              </div>
+              <p class="progress">PHP</p>
+
+          </div>
+
+          <div class="col-sm-2 col-lg-2">
+
+              <div class="progress-radial progress-80">
+              <div class="overlay">80%</div>
+
+              </div>
+              <p class="progress">MySQL</p>
+
+            </div>
+
+          </div>
+
+
+
+        <div class="row">
         
-        </div>
+          <div class="col-sm-6 col-lg-6">
+    
+              <div class="card1 card-inverse2 card-block1">
+            
+                <h3 class="card-header1  text-xs-center"><img class="logo1" src="bootlogo.jpg">Bootstrap</h3>
+              
+                  <p class="card-text text-xs-center"> Bootstrap is an increasingly popular front-end development framework making your websites responsive meaning website will automatically adjust to your mobile screen resolution.It ensures consistency as results are uniform across various platforms.Bootstarp can be tailor made according to specifications of your projects.Use of Bootstrap will be there in your projects.</p>
+    
+              </div>
+        
+          </div>
 
 
-        <div class="col-sm-6">
+          <div class="col-sm-6 col-lg-6">
           
-          <div class="card1 card-inverse3 card-block1">
+              <div class="card1 card-inverse3 card-block1">
             
-            <h3 class="card-header2 text-xs-center"><img class="logo2" src="wordlogo.jpg">Wordpress</h3>
+                <h3 class="card-header2 text-xs-center"><img class="logo2" src="wordlogo.jpg">Wordpress</h3>
               
-              <p class="card-text text-xs-center">Wordpress is an online, open source website creation tools and the most powerful blogging and website content management system.It contains thousands of professionally designed themes and plugins to add complex business features to your website.A theme will be chosen according to your specifications making your idea or brand more marketable.</p>
+                  <p class="card-text text-xs-center">Wordpress is an online, open source website creation tools and the most powerful blogging and website content management system.It contains thousands of professionally designed themes and plugins to add complex business features to your website.A theme will be chosen according to your specifications making your idea or brand more marketable.</p>
       
-          </div>
+              </div>
         
-        </div>
+          </div>
       
+        </div>
+
       </div>
 
     </div>
@@ -293,67 +329,82 @@
 
     <div id="contact">
 
-      <h2 class="display-4 ">Contact Me</h2>
+        <h2 class="display-4 ">Contact Me</h2>
 
-      
+        <div class="container-fluid">
+
+          <div class="row">
+
+            <div class="col-sm-6 col-lg-6">
+
+              <div id="error"><? echo $error.$successMessage; ?></div>
     
-      <div id="contactForm">  
+                <div id="contactForm">  
 
-
-
-        <form method="post" action="Sargar.php#form-anchor" id="form-anchor">
+                  <form method="post" action="Sargar.php#form-anchor" id="form-anchor">
           
           
-          <fieldset class="form-group">
+                      <fieldset class="form-group">
+                  
+                        <label for="subject">Name</label> 
+                        <input type="text" class="form-control" id="name" name="name" >
+                
+                      </fieldset>
             
-            <label for="subject">Name</label> 
-            <input type="text" class="form-control" id="name" name="name" >
-          
-          </fieldset>
-      
-          
-          <fieldset class="form-group">
+                
+                      <fieldset class="form-group">
+                  
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email">
+              
+                      </fieldset>
+
+                
+                      <fieldset class="form-group">
+                  
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" >
             
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" name="email">
-        
-          </fieldset>
-
-          
-          <fieldset class="form-group">
+                      </fieldset>
             
-            <label for="subject">Subject</label>
-            <input type="text" class="form-control" id="subject" name="subject" >
-      
-          </fieldset>
-      
-          
-          <fieldset class="form-group">
+                
+                      <fieldset class="form-group">
+                  
+                        <label for="exampleTextarea">Enter Message</label>
+                        <textarea class="form-control" id="content" name="content" rows="3"></textarea>
+                
+                      </fieldset>
             
-            <label for="exampleTextarea">Enter Message</label>
-            <textarea class="form-control" id="content" name="content" rows="3"></textarea>
-          
-          </fieldset>
+                
+                      <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+
+                  </form>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-lg-6">
+
+
+            <div id="contactMe">
+
+                <h5>My Contact Details</h5>
+
+                <p> <i class="fa fa-envelope-o" style="font-size: 19px; margin:0px 5px 0px 5px;" aria-hidden="true"></i> <b>Email:</b> akshaysargar789@gmail.com</p>
+
+                <p> <i class="fa fa-mobile" style="font-size: 25px; margin: 0px 9px 0px 10px;" aria-hidden="true"></i> <b>Phone:</b> 9011491580</p>
+
+                <p> <i class="fa fa-home" style="font-size: 20px; margin: 0px 3px 0px 6px;" aria-hidden="true"></i> <b> Address :</b><span> 3/22 , Gokhalenagar Near Senapati Bapat Road , Pune-411016</span></p>
       
-          
-          <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+              </div>
 
-        </form>
-
-      </div>
-
-      <div id="contactMe">
-
-      <h5>My Contact Details</h5>
-
-      <p> <i class="fa fa-envelope-o" style="font-size: 19px; margin:0px 5px 0px 5px;" aria-hidden="true"></i> <b>Email:</b> akshaysargar789@gmail.com</p>
-
-      <p> <i class="fa fa-mobile" style="font-size: 25px; margin: 0px 9px 0px 10px;" aria-hidden="true"></i> <b>Phone:</b> 9011491580</p>
-
-      <p> <i class="fa fa-home" style="font-size: 20px; margin: 0px 3px 0px 6px;" aria-hidden="true"></i> <b> Address :</b><span> 3/22 , Gokhalenagar Near Senapati Bapat Road , Pune-411016</span></p>
-      
-      </div>
+            </div>
  
+
+      </div>
+
+      </div>
 
     </div>
 

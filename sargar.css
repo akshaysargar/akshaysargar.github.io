@@ -47,7 +47,6 @@
       {
         color: white;
         font-size: 15px;
-      
         font-family: 'Droid Serif', Georgia, Times, serif;
         letter-spacing: 1px;
         margin: 3px 10px -3px 10px;
@@ -86,10 +85,7 @@
 
       /*------------------------------------------Jumbotron/Home CSS-------------------------------------------*/
       .jumbotron 
-      {
-        
-        width: 100%;
-        height: 600px;
+      { 
         color: white;
         text-align: center;
         background: url("laptop5.jpg");
@@ -100,6 +96,7 @@
         margin-top: 60px;
         margin-bottom: 0px;
       }
+
       #jumbotron h1
       {
         color: white;
@@ -110,7 +107,7 @@
 
       #hr1
       {
-        width: 550px;
+        width: 60%;
         height: 2px;
         background-color:#610B0B;
       }
@@ -122,19 +119,16 @@
         font-size: 30px;
         letter-spacing: 1px;
         font-weight: bold;
-        font-family: 'Advent Pro', sans-serif; 
-        
+        font-family: 'Advent Pro', sans-serif;  
       }
 
       #jumbotext1
       {
-        
         font-family: 'Advent Pro', sans-serif;       
-         font-size: 25px;
+        font-size: 25px;
         letter-spacing: 1px;
         color: white;
         font-weight: bold;
-  
       }
 
       
@@ -148,7 +142,6 @@
       #about
       {
         background-color: #D5D5D5;
-        height: 750px;
         padding: 70px;
         overflow: hidden;
       }
@@ -163,8 +156,7 @@
       .card-deck-wrapper
       {
         margin-top: 40px;
-        margin-left: -15px;
-        width: 110%;
+       	padding-left: 6px;
         border-color: red;
       }
 
@@ -176,7 +168,6 @@
       .card-block
       {
         background-color: #610B0B;
-        height: 90px;
         color:white;
       }
 
@@ -184,10 +175,9 @@
       /*----------------------------------------About me TEXT paragraph----------------------------------------------*/
       #wrapper
       {
-        float: right;
-        width: 500px;
-        height: 550px;
-        margin-left: 0px; 
+        padding-left: 6px;
+       	margin-top:40px; 
+       	margin-left: 20px; 
       }
       
       .lead
@@ -227,24 +217,16 @@
       /*--------------------------------------------------My Skills CSS---------------------------------------------*/
       #skills
       {
-      
         background-color:white ;
-        width: 100%;
-        height: 750px;
         padding: 70px ;
-        
       }
+      
       /*------------------------------------------My Skills Bootstrap & Wordpress cards----------------------------*/
       .card1
       {
-        margin-top: 30px;
+        margin-top: 40px;
       }
 
-      .card-block1
-      {
-        height: 270px;
-      }
-        
       .card-header1
       {
         background-color:#4B356C;
@@ -284,26 +266,22 @@
       }
 
       /*--------------------------------------------My Skills Circular progress bar-------------------------------*/
-      
-      #progress p
+      .progress
       {
-        width: 100px;
-        float: left;
-        margin: 15px 20px 15px 52px;
-        padding: 11.5px;
-        font-size: 20px;
+      	text-align: center;
       }
+      
 
       .progress-radial 
       {
-        float: left;
-        margin: 55px 21px 10px 21px;
         position: relative;
         width: 130px;
         height: 130px;
         border-radius: 50%;
         border: 2px solid #D5D5D5;
         background-color: tomato;
+        margin-top: 45px;
+       
       }
 
       .progress-radial .overlay 
@@ -359,32 +337,25 @@
       #contact
       {
         background-color:#D5D5D5 ;
-        width: 100%;
-        height: 780px;
         padding: 70px ;
       }
-      #contactForm
-      {
 
-        width: 430px;
-        float: left;
-      }
       #contactMe
       { 
-        width: 400px;
-        float: right;
         background-color: #474D5D;
         margin-top: 32px;
         border-radius: 10px;
         color:black;
         padding: 10px;
       }
+
       h5
       {
         font-weight: bold;
         margin:10px ;
         text-align: center;
       }
+
       span
       {
         position: relative;
